@@ -12,7 +12,7 @@ When adding a key-value pair to the hash table, the key will be hashed, the resu
 
 What happens when multiple key has the same hash? Collision!
 
-There's multiple way of handling collisions. Here are some of those:
+There're multiple ways of handling collisions. Here are some of those:
 
 - [Double Hashing](/src/scala/hashtable/DoubleHashing.scala): Assume we want to add the `(k,v)` pair to the hash table, `h = hash(k)` and the bucket `h` is occupied by another pair.
 
